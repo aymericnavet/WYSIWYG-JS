@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <title>MY_WYSIWYG - Rush 1</title>
+</head>
+<body style="background-color:#3b3b3b; ">
+<div id="textarea"></div>
+<script src="jquery-3.2.1.min.js"></script>
+<script src="script.js"></script>
+<script>
+    $(function () {
+        $('#textarea').myWysiwyg({
+            buttons: ["bold", "italic", "strike through", "fore color",
+                "font size", "link", "outdent", "indent", "justify left",
+                "justify right", "justify center", "justify full", "source code",
+                "save", "image"]
+        })
+    })
+</script>
+</body>
+</html>
